@@ -1,0 +1,60 @@
+.tile11{
+    
+    background-image:url("./img/one.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tile12{
+    
+    background-image:url("./img/two.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tile13{
+    
+    background-image:url("./img/three.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tile21{
+    
+    background-image:url("./img/four.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tile22{
+    
+    background-image:url("./img/five.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tile23{
+    
+    background-image:url("./img/six.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tile31{
+    
+    background-image:url("./img/seven.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tile32{
+    
+    background-image:url("./img/eight.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.timer{
+    display:inline;
+    border:2px solid black;
+}
