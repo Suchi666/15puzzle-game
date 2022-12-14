@@ -42,9 +42,10 @@ function timer(){
      if(sec<10){second.innerHTML=`0${sec}`; }
         else{ second.innerHTML=`${sec}`; }
 
-    if(min>1){
+    if(min>=1){
         clearInterval(stopid);
         prompt("Time up!!");
+         
     }
 }
 
@@ -61,6 +62,15 @@ function swap(id1,id2){
 
 function change(){
     let tiles=document.querySelectorAll(".box");
+    count=0;
+    DisplayCount(count);
+    sec=0;
+    min=0;
+    h=0;
+    timeSec=0;
+    hour.innerHTML=`0${h}`; 
+    minute.innerHTML=`0${min}`; 
+    second.innerHTML=`0${sec}`;
     for(let i=1;i<=3;i++)
     {
         for(let j=1;j<=3;j++){
@@ -146,4 +156,3 @@ function shift(row,col)
     prompt("you won");
     clearInterval(stopid);}
 }
-       
